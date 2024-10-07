@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a beautiful hyper-realistic anime jimi hendrix playing strat, painted by greg rutkowski makoto shinkai takashi takeuchi studio ghibli, akihiko yoshida, anime, clean soft lighting, finely detailed features, high-resolution, perfect art, stu.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "gates of heaven guarded by US Marines, Epic cinematic brilliant stunning intricate meticulously detailed dramatic atmospheric maximalist digital matte painting-min.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

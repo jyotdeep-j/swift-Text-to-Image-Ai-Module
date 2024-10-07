@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Land plot, intricate details, rich colors, beautiful lighting, V-Ray render, sun rays, photorealistic, isometric art,unreal engine,4K results, EOS 50D. iso 1300,photograph, extreme tilt shift, draw by Jacek Yerka,unreal engine-min.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

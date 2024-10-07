@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a beautiful hyper-realistic anime Pokemon Fakemon Lineart Cartoon Creature Concept, dragon, anime, green, purple, painted by greg rutkowski makoto shinkai takashi takeuchi studio ghibli, akihiko yoshida, anime, clean soft lighting, finely .jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

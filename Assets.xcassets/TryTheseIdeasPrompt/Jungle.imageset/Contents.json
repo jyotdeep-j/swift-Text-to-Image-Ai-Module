@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Jungle, rainforest, cinematic lighting, volumetric lighting, shadow depth, digital art, dynamic composition, rule of thirds, 8 k resolution, trending on artstation, unreal engine 5-min.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

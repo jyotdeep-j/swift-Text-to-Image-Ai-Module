@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "yogi bear and boo boo, at picnic, Forestpunk, Nature, organic, glow, sparkle, gloom, magical, mystic,thicket, jungle, overgrown, fractalcore, entropy, octane render, 8k-min.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

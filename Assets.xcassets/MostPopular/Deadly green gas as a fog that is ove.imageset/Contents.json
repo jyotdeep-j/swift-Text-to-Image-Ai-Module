@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Deadly green gas as a fog that is over a lake in the forest, fantasy art, concept art, hyper detailed, beautiful, complex, detailed, dystopian, elaborate, ethereal, flickering light, holographic, glowing neon, hyperdetailed, iridescent, my.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

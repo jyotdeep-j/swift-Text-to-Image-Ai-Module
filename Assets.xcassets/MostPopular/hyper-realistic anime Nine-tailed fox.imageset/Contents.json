@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a beautiful hyper-realistic anime Nine-tailed fox, painted by greg rutkowski makoto shinkai takashi takeuchi studio ghibli, akihiko yoshida, anime, clean soft lighting, finely detailed features, high-resolution, perfect art, stunning atmos.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

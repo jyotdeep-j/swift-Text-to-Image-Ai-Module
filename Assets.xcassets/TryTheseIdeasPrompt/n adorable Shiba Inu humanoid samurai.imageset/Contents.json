@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "n adorable Shiba Inu humanoid samurai, a highly intricate and hyperdetailed matte photography, Greg Rutkowski, Remedios Varo, Ari Gibson, Catrin Welz-Stein, cover art, long exposure, stop motion, character design, 3d shading, 3DEXCITE, awar-min.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

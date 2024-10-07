@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "dutch angle photo silhouette of a mclaren p1 with the car lights piercing the dense fog, low light, dark mode-min.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

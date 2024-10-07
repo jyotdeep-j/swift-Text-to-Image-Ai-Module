@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a beautiful hyper-realistic anime Silent hill giger brom michael hussar bald female catalog shot luminous portrait soaking wet, painted by greg rutkowski makoto shinkai takashi takeuchi studio ghibli, akihiko yoshida, anime, clean soft lig.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

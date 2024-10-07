@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "3d fluffy baby penguin walking , cute and adorable, long fuzzy fur, Pixar render, unreal engine cinematic smooth, intricate detail, cinematic-min.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

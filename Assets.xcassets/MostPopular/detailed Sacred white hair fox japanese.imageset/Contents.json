@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a very beautiful highly detailed Sacred white hair fox japanese goddess, beautiful eyes, kimono, human body with big fox ears on head, nature background, resolution concept art portrait by Greg Rut, kowski, Artgerm, WLOP, Alphonse Mucha dy.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

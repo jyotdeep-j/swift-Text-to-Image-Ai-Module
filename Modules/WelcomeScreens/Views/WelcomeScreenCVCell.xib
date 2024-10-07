@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="red-hat.display-bold.otf">
+            <string>RedHatDisplay-Bold</string>
+        </array>
+        <array key="red-hat.display-medium.otf">
+            <string>RedHatDisplay-Medium</string>
+        </array>
+        <array key="red-hat.display.otf">
+            <string>RedHatDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WelcomeScreenCVCell" id="gTV-IL-0wX" customClass="WelcomeScreenCVCell" customModule="DreamAI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mGF-lG-v9Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome1" translatesAutoresizingMaskIntoConstraints="NO" id="AhB-bk-lle">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blur-image" translatesAutoresizingMaskIntoConstraints="NO" id="TJP-5P-Zf6">
+                                <rect key="frame" x="0.0" y="463" width="414" height="350"/>
+                            </imageView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SX6-xr-EHG">
+                                <rect key="frame" x="0.0" y="539" width="414" height="140"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powerful" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2P-eh-pg1">
+                                        <rect key="frame" x="41.5" y="5" width="331" height="24.5"/>
+                                        <fontDescription key="fontDescription" name="RedHatDisplay-Medium" family="Red Hat Display" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Editor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBs-3i-clA">
+                                        <rect key="frame" x="41.5" y="29.5" width="331" height="34"/>
+                                        <fontDescription key="fontDescription" name="RedHatDisplay-Bold" family="Red Hat Display" pointSize="29"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HwZ-Xx-YFL">
+                                        <rect key="frame" x="41.5" y="78.5" width="331" height="35"/>
+                                        <string key="text">Perfect Video editing 
+for Streamers</string>
+                                        <fontDescription key="fontDescription" name="RedHatDisplay-Regular" family="Red Hat Display" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="P2P-eh-pg1" firstAttribute="width" secondItem="SX6-xr-EHG" secondAttribute="width" multiplier="0.8" id="0E4-t6-E02"/>
+                                    <constraint firstItem="HwZ-Xx-YFL" firstAttribute="top" secondItem="TBs-3i-clA" secondAttribute="bottom" constant="15" id="2RX-DS-Omv"/>
+                                    <constraint firstItem="P2P-eh-pg1" firstAttribute="centerX" secondItem="SX6-xr-EHG" secondAttribute="centerX" id="4mb-R9-Dwz"/>
+                                    <constraint firstItem="HwZ-Xx-YFL" firstAttribute="centerX" secondItem="SX6-xr-EHG" secondAttribute="centerX" id="JK8-Bq-IlT"/>
+                                    <constraint firstItem="TBs-3i-clA" firstAttribute="centerX" secondItem="SX6-xr-EHG" secondAttribute="centerX" id="O5w-Zd-r2E"/>
+                                    <constraint firstItem="P2P-eh-pg1" firstAttribute="top" secondItem="SX6-xr-EHG" secondAttribute="top" constant="5" id="SMc-AB-6lp"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="HwZ-Xx-YFL" secondAttribute="bottom" id="Tow-6Z-l4C"/>
+                                    <constraint firstAttribute="height" constant="140" id="dfl-fO-z8c"/>
+                                    <constraint firstItem="TBs-3i-clA" firstAttribute="width" secondItem="SX6-xr-EHG" secondAttribute="width" multiplier="0.8" id="h9k-eV-yNq"/>
+                                    <constraint firstItem="HwZ-Xx-YFL" firstAttribute="width" secondItem="SX6-xr-EHG" secondAttribute="width" multiplier="0.8" id="rHP-yM-ZWF"/>
+                                    <constraint firstItem="TBs-3i-clA" firstAttribute="top" secondItem="P2P-eh-pg1" secondAttribute="bottom" id="s5p-Js-vxx"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AJd-Yx-yyP">
+                                <rect key="frame" x="20.5" y="634" width="373" height="34"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen Recorder" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q2I-V7-saB">
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="34"/>
+                                        <fontDescription key="fontDescription" name="RedHatDisplay-Bold" family="Red Hat Display" pointSize="29"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="q2I-V7-saB" firstAttribute="width" secondItem="AJd-Yx-yyP" secondAttribute="width" id="5XY-Im-gP3"/>
+                                    <constraint firstAttribute="bottom" secondItem="q2I-V7-saB" secondAttribute="bottom" id="OhN-bh-bbp"/>
+                                    <constraint firstItem="q2I-V7-saB" firstAttribute="centerX" secondItem="AJd-Yx-yyP" secondAttribute="centerX" id="XBy-re-bgd"/>
+                                    <constraint firstItem="q2I-V7-saB" firstAttribute="top" secondItem="AJd-Yx-yyP" secondAttribute="top" id="j0Y-Ry-40u"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwM-UI-Xav">
+                                <rect key="frame" x="20.5" y="693" width="373" height="55"/>
+                                <color key="backgroundColor" name="appGreen"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Bfu-lv-o9M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="RedHatDisplay-Bold" family="Red Hat Display" pointSize="21"/>
+                                <state key="normal" title="Start Creating FREE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TJP-5P-Zf6" secondAttribute="trailing" id="29e-hH-2F0"/>
+                            <constraint firstItem="VwM-UI-Xav" firstAttribute="centerX" secondItem="mGF-lG-v9Z" secondAttribute="centerX" id="3Ie-lW-tOv"/>
+                            <constraint firstAttribute="bottom" secondItem="AhB-bk-lle" secondAttribute="bottom" id="3QS-Ah-pEX"/>
+                            <constraint firstItem="AJd-Yx-yyP" firstAttribute="centerX" secondItem="mGF-lG-v9Z" secondAttribute="centerX" id="DdH-5l-rq2"/>
+                            <constraint firstAttribute="bottom" secondItem="VwM-UI-Xav" secondAttribute="bottom" constant="65" id="MAF-mN-MKI"/>
+                            <constraint firstItem="SX6-xr-EHG" firstAttribute="width" secondItem="mGF-lG-v9Z" secondAttribute="width" id="U2B-Gu-tiw"/>
+                            <constraint firstItem="VwM-UI-Xav" firstAttribute="width" secondItem="mGF-lG-v9Z" secondAttribute="width" multiplier="0.9" id="ahl-tB-Emb"/>
+                            <constraint firstItem="TJP-5P-Zf6" firstAttribute="leading" secondItem="mGF-lG-v9Z" secondAttribute="leading" id="coG-jD-il4"/>
+                            <constraint firstItem="VwM-UI-Xav" firstAttribute="top" secondItem="SX6-xr-EHG" secondAttribute="bottom" constant="10" id="jz1-5X-qbG"/>
+                            <constraint firstItem="AhB-bk-lle" firstAttribute="top" secondItem="mGF-lG-v9Z" secondAttribute="top" id="kYw-CK-Nsp"/>
+                            <constraint firstAttribute="bottom" secondItem="TJP-5P-Zf6" secondAttribute="bottom" id="mNy-ik-X3G"/>
+                            <constraint firstItem="VwM-UI-Xav" firstAttribute="top" secondItem="AJd-Yx-yyP" secondAttribute="bottom" constant="25" id="nT9-7g-89S"/>
+                            <constraint firstItem="SX6-xr-EHG" firstAttribute="centerX" secondItem="mGF-lG-v9Z" secondAttribute="centerX" id="tqo-Ry-l8p"/>
+                            <constraint firstItem="AJd-Yx-yyP" firstAttribute="width" secondItem="mGF-lG-v9Z" secondAttribute="width" multiplier="0.9" id="wGD-aw-j5Y"/>
+                            <constraint firstAttribute="trailing" secondItem="AhB-bk-lle" secondAttribute="trailing" id="yT5-cc-aIt"/>
+                            <constraint firstItem="AhB-bk-lle" firstAttribute="leading" secondItem="mGF-lG-v9Z" secondAttribute="leading" id="yhw-b0-9OE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="TJP-5P-Zf6"/>
+                                <exclude reference="SX6-xr-EHG"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="mGF-lG-v9Z" secondAttribute="bottom" id="8fh-VM-QYq"/>
+                <constraint firstAttribute="trailing" secondItem="mGF-lG-v9Z" secondAttribute="trailing" id="R3j-hT-BeR"/>
+                <constraint firstItem="mGF-lG-v9Z" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="b9a-cJ-Czc"/>
+                <constraint firstItem="mGF-lG-v9Z" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hIC-mJ-AbM"/>
+            </constraints>
+            <size key="customSize" width="414" height="813"/>
+            <connections>
+                <outlet property="appNameLbl" destination="q2I-V7-saB" id="Q6r-WQ-QtO"/>
+                <outlet property="bgImageView" destination="AhB-bk-lle" id="ybv-fR-TG7"/>
+                <outlet property="bottomViewCenterAligned" destination="AJd-Yx-yyP" id="zu1-YM-j7Z"/>
+                <outlet property="bottomViewLeftAligned" destination="SX6-xr-EHG" id="g3Q-2x-bMY"/>
+                <outlet property="continueBtn" destination="VwM-UI-Xav" id="Pv4-5N-Z1S"/>
+                <outlet property="firstLbl" destination="P2P-eh-pg1" id="43M-K1-h29"/>
+                <outlet property="secondLbl" destination="TBs-3i-clA" id="he1-G0-5AM"/>
+                <outlet property="shadowImageBottomConstraint" destination="mNy-ik-X3G" id="FHM-AS-iDM"/>
+                <outlet property="thirdLbl" destination="HwZ-Xx-YFL" id="0We-fk-pIR"/>
+            </connections>
+            <point key="canvasLocation" x="414.49275362318843" y="201.89732142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Blur-image" width="375" height="350"/>
+        <image name="welcome1" width="375" height="812"/>
+        <namedColor name="appGreen">
+            <color red="0.0080000003799796104" green="0.81599998474121094" blue="0.6589999794960022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

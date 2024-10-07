@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Highly detailed and realistic beautiful young African American female angel with halo with long curly hair in a realistic snowy Christmas village in the style of art by artgerm lau, digital art-min.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Strange epic ultrawide aerial ultra-detailed perfect close view of planet Jupiter clouds, by Zeitgeist, Artstation, Greg Rutkowski, hyperdetailed matte painting insanely detailed and intricate maximalist elegant striking hyper real paintin.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
